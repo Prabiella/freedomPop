@@ -1047,7 +1047,9 @@ video {
 .max-w-3xl {
   max-width: 48rem;
 }
-
+.max-w-none {
+  max-width: none;
+}
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -1219,7 +1221,9 @@ video {
 .items-center {
   align-items: center;
 }
-
+.items-end {
+  align-items: flex-end;
+}
 .justify-end {
   justify-content: flex-end;
 }
